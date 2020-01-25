@@ -1,0 +1,20 @@
+body {
+    background-color: green;
+}
+
+.titulos{
+
+    color: red;
+}
+
+#titulos {
+    color: blue;
+}
+
+.papa {
+    border: 1px dotted red;
+    height: auto;
+    width: 100%;
+    padding: 100px;
+    margin: 10px;
+}
