@@ -1,34 +1,49 @@
-
-
-.contenedor_hijo{
-    height: 100px;
-    width: 100px;
-    border: 1px solid red;
+body{ 
+    background:  rgb(2,0,36);
+    background: linear-gradient(318deg, rgba(2,0,36,1))
 }
-
+h2{
+    font-size 40px;
+}
+p{
+    font-size: 25px;
+}
 .background_nav{
-    background-color: aqua;
+    background-color:  black;
 }
-
 #navbar_logo{
-    height: 45px;
+    height:45 ;
 }
-
-
-.cuadricula{
-    margin-top: 100px;
-}
-
-.cuadricula__imagenes{
-    height: 290px;
-    width: 290px;
-    object-fit: cover;
-}
-
-
-.button__verde{
+.cuadricula_imagenes{
+    height: 270px;
     width: 100%;
-    border-radius: 28px;
+    object-fit: cover;
+    padding-top: 15px;
+}
+@media (max-width: 992px){
+    .cuadricula_imagenes{
+        object-fit: fill;
+    }
+}
+.botton_verde{
+    width: 100%;
     height: 57px;
+    border-radius: 28px;
     text-transform: uppercase;
 }
+.encabezado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
