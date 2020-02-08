@@ -1,0 +1,76 @@
+.fondo_padre{
+    height: 250px;
+    width: 500px;
+    background-color: black;
+
+}
+
+.padre_1{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.cuadrado{
+    height: 93px;
+    width: 175px;
+    background-color: red;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+    
+    
+    
+    
+}
+
+.cuadrado_1{
+    height: 93px;
+    width: 175px;
+    background-color: red;
+    display: flex;
+     flex-direction: column;
+     border-right: 10px solid white;
+     border-top: 10px solid white;
+    
+    
+}
+
+.padres_2{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    
+    
+}
+.prueba_1{
+    display: flex;
+    flex-direction: row;
+}
+
+.rectangulo_1{
+ height: 95px;
+ width: 240px;
+ background-color: red;
+ border-left: 10px solid white;
+ border-bottom: 10px solid white;
+    
+    
+}
+.rectangulo_2{
+    height: 95px;
+    width: 240px;
+    background-color: red;
+    border-left: 10px solid gray;
+    border-top: 10px solid gray;
+    
+}
+
+
+
+
+

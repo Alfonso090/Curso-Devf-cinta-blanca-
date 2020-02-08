@@ -1,0 +1,2 @@
+&& and sirve para aceptar ambas condicciones 
+ or sirve si al menos una de las opciones es verdadera
